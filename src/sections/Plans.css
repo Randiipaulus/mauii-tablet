@@ -1,0 +1,227 @@
+.all-plan {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 5vh;
+}
+
+.container-plan {
+    justify-content: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 35vh 35vh 35vh;
+    grid-template-rows: 40vh 40vh 40vh;
+    row-gap: 1.5vh;
+    column-gap: 1vh;
+    margin: auto;
+}
+
+.plan-1 {
+    grid-column: span 3;
+    grid-row: span 0;
+    background-color: beige;
+    overflow: hidden;
+    background-color: var(--black);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+}
+
+.plan-1-left {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.plan-1 img {
+    width: 60vh;
+    height: 50vh;
+    margin-top: -15px;
+    transition: .7s ease-in-out;
+}
+
+.plan-1 img:hover {
+    transform: scale(1.1);
+}
+
+.plan-1-item-1 {
+    font-size: 0.8rem;
+    color: var(--lgray);
+    margin-bottom: 10px;
+}
+
+.plan-1-item-2 {
+    font-size: var(--title-2);
+    width: 50vh;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.links-plan-1 {
+    display: flex;
+    margin: auto;
+    width: 30vh;
+    gap: 20px;
+    padding-left: 60px;
+}
+
+.links-plan-1 p {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.links-plan-1 span {
+    color: var(--lgray);
+    cursor: pointer;
+}
+
+.links-plan-icon {
+    position: relative;
+    top: 2px;
+}
+
+.plan-2 {
+    height: 50vh;
+    grid-column: span 2;
+    grid-row: span 0;
+    background-color: var(--black);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.plan-2:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.plan-2-info {
+    z-index: 5;
+    position: relative;
+}
+
+.plan-2-info p {
+    color: white;
+    font-size: var(--title-2);
+    width: 40vh;
+    position: absolute;
+    left: 15px;
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.plan-2-info span {
+    color: var(--lblue);
+    font-size: 1.1rem;
+    position: absolute;
+    left: 15px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.plan-2 img {
+    z-index: 0;
+    background-image: url('../components/assets/c-2.jpg');
+    height: 71vh;
+    margin-top: -10vh;
+    filter: brightness(0.7);
+}
+
+.plan-3 {
+    height: 50vh;
+    background-color: var(--black);
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.plan-3:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.plan-3-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan-3-info span {
+    font-size: 1.1rem;
+    color: var(--pink);
+}
+
+.plan-3-info p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.plan-3 img {
+    margin-left: -6vh;
+    margin-top: -1vh;
+}
+
+
+@media (max-width: 600px) {
+
+    .all-plan {
+        height: auto;
+    }
+
+    .container-plan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plan-1 {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .plan-1-left {
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    .plan-1-item-1 {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .plan-1-item-2 {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .links-plan-1 {
+        margin-bottom: 50px;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .links-plan-1 p {
+        text-align: left;
+    }
+
+    .plan-1 img {
+        width: 40vh;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+

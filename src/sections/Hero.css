@@ -1,0 +1,148 @@
+.all-hero {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.all-hero img {
+    width: auto;
+    height: 80vh;
+    z-index: -1;
+}
+
+.hero-1 {
+    font-size: 2.5rem;
+    color: white;
+    position: relative;
+    top: -5vh;
+}
+
+.hero-1 span {
+    color: var(--pink);
+}
+
+.hero-2 {
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.all-hero hr {
+    width: 10vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.hero-3 {
+    font-size: var(--text-body);
+    width: 90vh;
+    text-align: center;
+    margin: 1rem auto;
+    color: var(--gray);
+}
+
+.hero-4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.all-hero section {
+    margin-bottom: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-hero {
+    font-size: 0.9rem;
+    background-color: var(--black);
+    padding: 4px 10px 4px 10px;
+    border-radius: 20px;
+    color: var(--white);
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-hero {
+    margin-left: 3px;
+}
+
+.btn-hero:hover {
+    background-color: #6c6c6c;
+    letter-spacing: 1.5px;
+}
+
+.pink-btn {
+    padding: 4px 10px 4px 10px;
+    color: var(--white);
+    background-color: var(--pink);
+    font-size: 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.pink-btn:hover {
+    background-color: #ca1d4b;
+}
+
+@media (max-width: 600px) {
+
+    .all-hero img {
+        width: 100%;
+        height: auto;
+        margin-top: 5vh;
+    }
+
+    .hero-1 {
+        font-size: 20px;
+        margin-top: 6vh;
+    }
+
+    .hero-2 {
+        font-size: 35px;
+        margin-top: -40px;
+    }
+
+    .hero-3 {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .hero-4 {
+        font-size: 18px;
+    }
+
+    .all-hero section {
+        gap: 5%;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

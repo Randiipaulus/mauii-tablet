@@ -1,0 +1,154 @@
+
+.all-youtube {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: var(--bk);
+    padding-bottom: 10vh;
+    text-align: center;
+    margin-top: -30vh;
+}
+
+.all-youtube p {
+    color: white;
+    font-size: var(--title-2);
+}
+
+.all-youtube span {
+    color: var(--pink);
+    font-size: var(--title);
+}
+
+.container-youtube {
+    width: 70%;
+    padding-left: 5%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    background-color: var(--blk);
+    border-radius: 30px;
+    margin-top: 10vh;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.card-you {
+    width: 40vh;
+    height: 60vh;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-info-you {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.card-info-you p {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.card-info-you span {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 7vh;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 35vh;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .all-youtube {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .all-youtube p {
+        font-size: 22px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .all-youtube span {
+        font-size: 35px;
+    }
+
+    .container-youtube {
+        margin: auto;
+        margin-top: 8vh;
+        width: 85%;
+        padding: 15px;
+        height: auto;
+    }
+
+    .swiper-slide {
+        margin: auto;
+    }
+
+    .card-you {
+        width: 100%;
+    }
+
+    .card-info-you {
+        margin: auto;
+        margin-top: 4vh;
+    }
+
+    .card-info-you p {
+        font-size: 18px;
+    }
+
+    .card-info-you span {
+        font-size: 18px;
+        margin: auto;
+        margin: 5px;
+        padding-bottom: 4vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

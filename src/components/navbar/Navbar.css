@@ -1,0 +1,229 @@
+.all-nav {
+    width: 100%;
+    height: 6.5vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    backdrop-filter: blur(25px);
+    position: fixed;
+}
+
+.list-nav {
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.list-nav ul {
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.home-nav {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.home-nav:active {
+    color: var(--lgray);
+    font-weight: 650;
+}
+
+.list-nav p {
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.list-nav span {
+    color: var(--pink);
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.phone-list, 
+.phone-list button,
+.phone-menu,
+.phone-menu-list{
+    display: none;
+}
+
+#hide-nav {
+    display: flex;
+}
+
+.sub-list-nav i {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.sub-list-nav i:hover {
+    color: #747474;
+} 
+
+.sub-list-nav i:active {
+    color: var(--gray);
+    font-weight: 650;
+} 
+
+.list-drop-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding-top: 5px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    height: 20vh;
+    margin-top: 9px;
+    height: auto;
+    text-align: left;
+    position: absolute;
+}
+
+.list-drop-menu li {
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: -35px;
+    text-align: left;
+    padding: 8px 10px 8px ;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.app-nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.app-left-nav {
+    justify-content: center;
+    align-items: center;
+}
+
+#app-left-nav-2 {
+    margin-left: -30px;
+}
+
+.app-left-nav img {
+    width: 6vh;
+    height: auto;
+    border-radius: 15px;
+}
+
+.app-right-nav {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.list-drop-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icon-support-nav {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+@media (max-width: 1100px) {
+
+    .list-nav {
+        width: 90%;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .title-nav {
+        width: 25vh;
+    }
+
+    #hide-nav {
+        display: none;
+    }
+
+    .phone-list {
+        display: flex;
+        width: 100%;  
+    }
+
+    .phone-list button {
+        background-color: transparent;
+        width: 33vh;
+        height: 60px;
+        border: none;
+        display: flex;
+        margin: auto;
+    }
+
+    .open-nav{
+        font-size: 35px;
+        color: white;
+        position: relative;
+        margin-left: 70%;
+    }
+
+    .close-nav {
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .phone-menu {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .phone-menu-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: var(--bk);
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -5px;
+        height: auto;
+        padding-bottom: 8vh;
+        border-bottom: 1px solid white;
+    }
+
+    .phone-menu-list button {
+        margin-top: 40px;
+    }
+
+    .phone-menu-list li {
+        color: var(--lgray);
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .phone-menu-list li:hover {
+        color: var(--gray);
+    }
+
+    .phone-icon-arrow-nav {
+        position: relative;
+        top: 5px;
+    }
+
+}
+
+
+
+

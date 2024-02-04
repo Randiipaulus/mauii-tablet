@@ -1,0 +1,135 @@
+.all-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    background-color: var(--footer);
+}
+
+.all-footer hr {
+    color: var(--black);
+    width: 62%;
+    margin: auto;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    color: white;
+    margin-bottom: 25px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+
+.container-footer p {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.container-footer li {
+    font-size: 12px;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.low-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    height: 12vh;
+}
+
+.low-footer p {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.low-footer li {
+    font-size: 12px;
+    color: var(--gray);
+}
+
+.copy-footer p {
+    font-size: 12px;
+    color: white;
+}
+
+.copy-footer span {
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.right-footer {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.right-footer span {
+    color: var(--blue);
+}
+
+@media (max-width: 600px) {
+
+    .all-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        padding-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .all-footer hr {
+        width: 80%;
+        border: 0.5px solid #323232;
+    }
+
+    .low-footer {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 3vh;
+        text-align: center;
+        width: 90%;
+        gap: 0;
+    }
+
+    .right-footer li {
+        font-size: 10px;
+    }
+
+    .right-footer span {
+        font-size: 12px;
+    }
+
+    .copy-footer p {
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+
+    .copy-footer span {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
